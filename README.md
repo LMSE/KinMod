@@ -71,3 +71,7 @@ Three additional files are accessible in a NoSQL format (JSON files) on <a href=
   *	<a href="https://lmse.utoronto.ca/kinmod/ec_sequence_organism.json" target="_blank">_ec_sequence_organism.json_</a> provides the sequence data for each EC number of specific species extracted from the PDB database.  
   *	<a href="https://lmse.utoronto.ca/kinmod/Pdb_to_uniprot.json" target="_blank">_Pdb_to_uniprot.json_</a> links PDB and UniProt Identifiers and lists enzymes' binding sites, descriptions, and particular protein residues.  
   * <a href="https://lmse.utoronto.ca/kinmod/Annotation.json" target="_blank">>_Annotation.json_</a> is a dataset that provides GO annotations for each PDB sequence.  
+  
+  kianahaddadi@gmail.com
+  Kiana Haddadi
+  
