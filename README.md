@@ -75,7 +75,8 @@ You can add filters to the tables or use the functions without filters by enteri
 
 <a name="examp"></a>
 ## 3. Database Access
-If you'd like to directly access the database, you can find the MySQLdump file here: [LMSE KinMod Database File](https://lmse.utoronto.ca/kinmod/KINMOD.sql.gz)
+If you'd like to directly access the database, you can find the MySQLdump file here: [LMSE KinMod Database File](https://lmse.utoronto.ca/kinmod/KINMOD.sql.gz).
+
 If you'd like to access the database through Python, you can do so by loading the dump file into MySQL locally and access it through a MySQL-python connector. This process has been tested with Python3 and mysql-connector-python (8.0.28). If you'd like more detail on accessing the database through python, please contact Rana Ahmed Barghout (rana.barghout@mail.utoronto.ca). 
 
 <a name="examp"></a>
