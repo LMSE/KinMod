@@ -74,11 +74,16 @@ You can add filters to the tables or use the functions without filters by enteri
 
 
 <a name="examp"></a>
-## 3. Sequence Data
+## 3. Database Access
+If you'd like to directly access the database, you can find the MySQLdump file here: <a href="(https://lmse.utoronto.ca/kinmod/KINMOD.sql.gz" target="_blank">LMSE KinMod Database File</a>
+If you'd like to access the database through Python, you can do so by loading the dump file into MySQL locally and access it through a MySQL-python connector. This process has been tested with Python3 and mysql-connector-python (8.0.28). If you'd like more detail on accessing the database through python, please contact Rana Ahmed Barghout (rana.barghout@mail.utoronto.ca). 
+
+<a name="examp"></a>
+## 4. Sequence Data
 Three additional files are accessible in a NoSQL format (JSON files) on <a href="https://lmse.utoronto.ca/kinmod" target="_blank">KinMod Sequence Data</a>. to provide a linkage between BRENDA, PDB, and Swiss-port.   
   *	<a href="https://lmse.utoronto.ca/kinmod/ec_sequence_organism.json" target="_blank">_ec_sequence_organism.json_</a> provides the sequence data for each EC number of specific species extracted from the PDB database.  
   *	<a href="https://lmse.utoronto.ca/kinmod/Pdb_to_uniprot.json" target="_blank">_Pdb_to_uniprot.json_</a> links PDB and UniProt Identifiers and lists enzymes' binding sites, descriptions, and particular protein residues.  
-  * <a href="https://lmse.utoronto.ca/kinmod/Annotation.json" target="_blank">>_Annotation.json_</a> is a dataset that provides GO annotations for each PDB sequence.  
+  * <a href="https://lmse.utoronto.ca/kinmod/Annotation.json" target="_blank">>_Annotation.json_</a> is a dataset that provides GO annotations for each PDB sequence. 
   
   kianahaddadi@gmail.com
   Kiana Haddadi
