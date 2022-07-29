@@ -17,7 +17,7 @@ The hierarchical ontology of the KinMod database allows flexible exploration of 
 ## 2. Web Application
 KinMod web application is available on <a href="https://lmse.utoronto.ca/kinmod/kinmod/" target="_blank">LMSE KinMod Interface</a>.
   
-![KinMod Interface](https://github.com/kiahdd/KinMod/blob/main/image/overall.png)
+![KinMod Interface](https://github.com/LMSE/KinMod/blob/main/image/KinModWebApp.png)
   
 <a name="usage"></a>
 ## 3. Data
@@ -65,6 +65,14 @@ This module returns the KM values reported for EC numbers in Escherichia coli. T
 
 
 ***
+### Additional Filters and CSV File Downloads
+There are also additional filters that can be applied on the above functions. The output of these functions include the query results as well as the required data in a downloadable csv file. 
+
+![KinMod Interface](https://github.com/LMSE/KinMod/blob/main/image/filters.png)
+
+You can add filters to the tables or use the functions without filters by entering none in the additional filters if you'd like the output data in csv format.
+
+
 <a name="examp"></a>
 ## 3. Sequence Data
 Three additional files are accessible in a NoSQL format (JSON files) on <a href="https://lmse.utoronto.ca/kinmod" target="_blank">KinMod Sequence Data</a>. to provide a linkage between BRENDA, PDB, and Swiss-port.   
