@@ -62,7 +62,17 @@ This module returns the organism names and EC numbers for which citrate act as a
 ![KinMod Interface](https://github.com/LMSE/KinMod/blob/main/image/organism_to_reactant.png)
 
 This module returns the KM values reported for EC numbers in Escherichia coli. The output table includes information on the reaction string, the EC number, reactants IUPAC name, and KM values. 
+***
+<a name="mod3"></a>
+* **The organism_to_reactant module:**
 
+> **organism_to_kcat('*Escherichia coli*', '', '')**
+> 1484 row(s) returned   
+> 1.500 sec / 3.265 sec 
+
+![KinMod Interface](https://github.com/LMSE/KinMod/blob/main/image/organism_to_kcat.png)
+
+This module returns the organism name, enzyme EC Number, substrate IUPAC name, substrate INCHIKey, substrate SMILES, substrate InCHIKEY, molecular weight, KEGG ID, charge, and kcat parameter(s). 
 
 ***
 ### Additional Filters and CSV File Downloads
